@@ -179,7 +179,7 @@ Links, [3/22/2025 6:33 AM]
             player.configure({
                 drm: {
                     clearKeys: {
-                'https://a91aivottepl-a.akamaihd.net/pdx-nitro/live/clients/dash/enc/w1dbliut83/out/v1/8898a2bac81e41329840d8d627427a84/cenc.mpd"
+                '00b055f102908e6c2492bba376394ab0':"ee66f49af227cf0fe24b2d654425f88c"
                     }
                 }
             });
@@ -204,7 +204,7 @@ Links, [3/22/2025 6:33 AM]
             controls.addEventListener("error", onUIErrorEvent);
 
             try {
-                await player.load("00b055f102908e6c2492bba376394ab0:ee66f49af227cf0fe24b2d654425f88c");
+                await player.load("https://a91aivottepl-a.akamaihd.net/pdx-nitro/live/clients/dash/enc/w1dbliut83/out/v1/8898a2bac81e41329840d8d627427a84/cenc.mpd");
                 console.log("The video has now been loaded!");
             } catch (error) {
                 onPlayerError(error); 
